@@ -49,7 +49,7 @@ The controller in `Control.m` models the ball-platform dynamics in state-space f
 - Controller gain `K = place(A, B, p)`
 - Observer gain `L = place(A', C', 10*p)'`
 
-This makes the project useful for showing practical control-system work: the mechanical model is connected to controller synthesis, rather than treated as a static CAD exercise.
+The mechanical model is connected to controller synthesis, rather than treated as a static CAD exercise.
 
 ## CAD-to-Simulation Workflow
 
@@ -73,16 +73,10 @@ Typical workflow:
 - Mechatronics workflow from geometry to behavior
 - Clear project packaging with source models, generated data, and demonstration media
 
-## Suggested GitHub Topics
+## Project Roadmap
 
-Already applied to the repository:
-
-`matlab` `robotics` `simulink` `2dof` `control-systems` `mechatronics` `motion-control` `simscape` `solidworks`
-
-## Recommended Next Enhancements
-
-- Add screenshots from `Simulation.mp4` directly into this README.
-- Add a diagram showing the ball, platform, two actuated axes, and controller loop.
-- Include controller response plots for ball position, platform angle, and settling time.
-- Add a short explanation of assumptions behind the state-space model.
-- Add instructions for opening the Simulink/Simscape models and regenerating CAD import files.
+- Screenshots from `Simulation.mp4`
+- System diagram showing the ball, platform, two actuated axes, and controller loop
+- Controller response plots for ball position, platform angle, and settling time
+- State-space model assumptions
+- Instructions for opening the Simulink/Simscape models and regenerating CAD import files
